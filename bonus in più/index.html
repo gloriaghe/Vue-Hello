@@ -16,13 +16,13 @@
                 <input type="radio" id="CANI" name="animal" value="CANI">
                 <label for="CANI">CANI</label><br>
                 <input type="radio" id="TARTARUGHE" name="animal" value="TARTARUGHE">
-                <label for="TARTARUGHE">TARTARUGHE</label>
+                <label for="TARTARUGHE">TARTARUGHE</label> <br>
+                <button @click="scelta">Clicca qui</button>
             </div>
             
-            <button @click="scelta">Clicca qui</button>
 
 
-            <img id="imgAnimale" :src="miaImmagine">    
+            <img :src="miaImmagine">    
         </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>

@@ -8,7 +8,6 @@ var miaPagina = new Vue ({
     methods: {
         scelta: function () {
            let input = document.querySelector('input[name="animal"]:checked')
-           debugger;
             switch (input.value) {
             case "GATTI":
                 this.miaImmagine = "https://portalebambini.it/wp-content/uploads/2021/06/gatti-colorare-001-1-724x1024.jpg";  
