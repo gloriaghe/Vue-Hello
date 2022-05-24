@@ -9,9 +9,8 @@
 </head>
 <body>
     <div id="container">
-        <form>
             <h1>{{messaggio}}</h1>
-            <div id="inputImg">
+            
 
                 <input type="radio" id="GATTI" name="animal" value="GATTI">
                 <label for="GATTI">GATTI</label><br>
@@ -20,8 +19,6 @@
                 <input type="radio" id="TARTARUGHE" name="animal" value="TARTARUGHE">
                 <label for="TARTARUGHE">TARTARUGHE</label>
                 <button @click="scelta">Clicca qui</button>
-            </div>
-        </form>        
             <img :src="miaImmagine">    
         </div>
 
