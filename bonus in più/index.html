@@ -10,16 +10,19 @@
 <body>
     <div id="container">
             <h1>{{messaggio}}</h1>
-            
-
+            <div>
                 <input type="radio" id="GATTI" name="animal" value="GATTI">
                 <label for="GATTI">GATTI</label><br>
                 <input type="radio" id="CANI" name="animal" value="CANI">
                 <label for="CANI">CANI</label><br>
                 <input type="radio" id="TARTARUGHE" name="animal" value="TARTARUGHE">
                 <label for="TARTARUGHE">TARTARUGHE</label>
-                <button @click="scelta">Clicca qui</button>
-            <img :src="miaImmagine">    
+            </div>
+            
+            <button @click="scelta">Clicca qui</button>
+
+
+            <img id="imgAnimale" :src="miaImmagine">    
         </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
